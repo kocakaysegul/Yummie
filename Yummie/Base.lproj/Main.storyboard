@@ -130,7 +130,7 @@
         <!--Yummie-->
         <scene sceneID="fdP-xX-uxf">
             <objects>
-                <viewController id="zzJ-mc-J3n" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController id="zzJ-mc-J3n" customClass="HomeViewController" customModule="Yummie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e0p-6o-YHu">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -310,6 +310,9 @@
                             <color key="tintColor" red="0.57884675259999996" green="0.0015437746190000001" blue="0.18817809220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="categoryCollectionview" destination="FCb-DJ-ifP" id="nlb-8X-Vxv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MzG-ba-RxV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
