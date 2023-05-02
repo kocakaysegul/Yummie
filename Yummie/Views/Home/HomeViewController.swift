@@ -23,7 +23,7 @@ class HomeViewController: UIViewController {
     ]
     
     var populars : [Dish] = [
-        .init(id: "id1", name: "Garri", description: "This is the best that I ever tasted", image: "https://picsum.photos/100/200", calories: 32.765),
+        .init(id: "id1", name: "Garri", description: "This is the best that I ever tasted", image: "https://picsum.photos/100/200", calories: 32),
         .init(id: "id1", name: "Indomie", description: "This is the best that I ever tasted", image: "https://picsum.photos/100/200", calories: 123),
         .init(id: "id1", name: "Pizza", description: "This is the best that I ever tasted", image: "https://picsum.photos/100/200", calories: 345)
     ]
