@@ -16,6 +16,8 @@
 		D8AC93702A01267C00802E9B /* DishPortraitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AC936E2A01267C00802E9B /* DishPortraitCollectionViewCell.swift */; };
 		D8AC93712A01267C00802E9B /* DishPortraitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8AC936F2A01267C00802E9B /* DishPortraitCollectionViewCell.xib */; };
 		D8AC93732A012B0300802E9B /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AC93722A012B0300802E9B /* Dish.swift */; };
+		D8AC93772A01333300802E9B /* DishLandscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AC93752A01333300802E9B /* DishLandscapeCollectionViewCell.swift */; };
+		D8AC93782A01333300802E9B /* DishLandscapeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8AC93762A01333300802E9B /* DishLandscapeCollectionViewCell.xib */; };
 		D8AD7E4129F6A99E00072BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD7E4029F6A99E00072BD9 /* AppDelegate.swift */; };
 		D8AD7E4329F6A99E00072BD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD7E4229F6A99E00072BD9 /* SceneDelegate.swift */; };
 		D8AD7E4829F6A99E00072BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8AD7E4629F6A99E00072BD9 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 		D8AC936E2A01267C00802E9B /* DishPortraitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishPortraitCollectionViewCell.swift; sourceTree = "<group>"; };
 		D8AC936F2A01267C00802E9B /* DishPortraitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishPortraitCollectionViewCell.xib; sourceTree = "<group>"; };
 		D8AC93722A012B0300802E9B /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		D8AC93752A01333300802E9B /* DishLandscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLandscapeCollectionViewCell.swift; sourceTree = "<group>"; };
+		D8AC93762A01333300802E9B /* DishLandscapeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishLandscapeCollectionViewCell.xib; sourceTree = "<group>"; };
 		D8AD7E3D29F6A99E00072BD9 /* Yummie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8AD7E4029F6A99E00072BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8AD7E4229F6A99E00072BD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		D84F197029F7D0530034C6C6 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				D8AC93742A0132D200802E9B /* DishLandscapeCollectionViewCell */,
 				D8AC936D2A01263C00802E9B /* DishPortraitCollectionViewCell */,
 				D84F197129F7D0670034C6C6 /* CategoryCollectionViewCell */,
 			);
@@ -116,6 +121,15 @@
 				D8AC936F2A01267C00802E9B /* DishPortraitCollectionViewCell.xib */,
 			);
 			path = DishPortraitCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		D8AC93742A0132D200802E9B /* DishLandscapeCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D8AC93752A01333300802E9B /* DishLandscapeCollectionViewCell.swift */,
+				D8AC93762A01333300802E9B /* DishLandscapeCollectionViewCell.xib */,
+			);
+			path = DishLandscapeCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		D8AD7E3429F6A99E00072BD9 = {
@@ -271,6 +285,7 @@
 				D8AD7E4D29F6A99E00072BD9 /* LaunchScreen.storyboard in Resources */,
 				D8AC93712A01267C00802E9B /* DishPortraitCollectionViewCell.xib in Resources */,
 				D8AD7E4A29F6A99E00072BD9 /* Assets.xcassets in Resources */,
+				D8AC93782A01333300802E9B /* DishLandscapeCollectionViewCell.xib in Resources */,
 				D8AD7E4829F6A99E00072BD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +347,7 @@
 				D8AD7E5929F6BB5D00072BD9 /* OnboardingViewController.swift in Sources */,
 				D8AD7E5C29F6BEC200072BD9 /* UIView+Extention.swift in Sources */,
 				D8AD7E6329F6D5B900072BD9 /* HomeViewController.swift in Sources */,
+				D8AC93772A01333300802E9B /* DishLandscapeCollectionViewCell.swift in Sources */,
 				D84F197729F7D3C30034C6C6 /* DishCategory.swift in Sources */,
 				D8AC936C2A010FF600802E9B /* CardView.swift in Sources */,
 				D8AD7E6029F6C3A200072BD9 /* OnboardingCollectionViewCell.swift in Sources */,
