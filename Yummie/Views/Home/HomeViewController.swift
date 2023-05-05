@@ -98,7 +98,9 @@ extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSou
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == categoryCollectionview {
-            
+            let controller = ListDishesViewController.instantiate()
+            controller.category = categories[indexPath.row]
+            navigationController?.pushViewController(controller, animated: true)
         } else {
             let controller = DishDetailViewController.instantiate()
             controller.dish = collectionView == popularCollectionView ? populars[indexPath.row] : specials[indexPath.row]
