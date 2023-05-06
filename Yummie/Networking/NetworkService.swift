@@ -15,7 +15,7 @@ struct NetworkService {
     ///   - method: type of request to be made
     ///   - parameters: whatever extra information you need to pass to the backend
     /// - Returns: URLRequest
-    private func createRequest(route : Route,
+     func createRequest(route : Route,
                                method: Method,
                                parameters : [String : Any]? = nil) -> URLRequest? {
         let urlString = Route.baseUrl + route.description

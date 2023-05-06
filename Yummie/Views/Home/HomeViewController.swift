@@ -38,6 +38,13 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        /*test
+        let service = NetworkService()
+        let request = service.createRequest(route: .temp, method: .get, parameters: ["firstName": "Aysegul", "lastName" : "Kocak"])
+        print("URL: \(request?.url)")
+         print("URL: \(request?.httpBody)")
+         */
 
         // Do any additional setup after loading the view.
         categoryCollectionview.delegate = self
