@@ -314,8 +314,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Yummie" id="a0E-JU-Bvf">
+                        <barButtonItem key="backBarButtonItem" title=" " id="tLM-8i-bJO"/>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="cart.fill" catalog="system" id="Uqt-rW-oz2">
                             <color key="tintColor" red="0.57884675259999996" green="0.0015437746190000001" blue="0.18817809220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="Wzz-vG-L9j" kind="show" id="zr2-eD-1qb"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -480,6 +484,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Ts-ai-Gwv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-24" y="-106"/>
+        </scene>
+        <!--List Orders View Controller-->
+        <scene sceneID="eJQ-mR-bW7">
+            <objects>
+                <viewController storyboardIdentifier="ListOrdersViewController" id="Wzz-vG-L9j" customClass="ListOrdersViewController" customModule="Yummie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wMx-z7-He2">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="WGD-Bw-GCT">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Wzz-vG-L9j" id="Nkg-y9-FlI"/>
+                                    <outlet property="delegate" destination="Wzz-vG-L9j" id="TaG-fv-aeS"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PQu-FY-Iwg"/>
+                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="WGD-Bw-GCT" firstAttribute="top" secondItem="PQu-FY-Iwg" secondAttribute="top" id="Mtj-cA-N0f"/>
+                            <constraint firstItem="WGD-Bw-GCT" firstAttribute="leading" secondItem="PQu-FY-Iwg" secondAttribute="leading" id="Ug1-fD-RdO"/>
+                            <constraint firstItem="PQu-FY-Iwg" firstAttribute="trailing" secondItem="WGD-Bw-GCT" secondAttribute="trailing" id="XDv-0E-eDH"/>
+                            <constraint firstItem="PQu-FY-Iwg" firstAttribute="bottom" secondItem="WGD-Bw-GCT" secondAttribute="bottom" id="Zux-BJ-Iy6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LLg-K4-IdL"/>
+                    <connections>
+                        <outlet property="tableView" destination="WGD-Bw-GCT" id="Q9C-pl-ntF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iou-dC-Gun" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="804" y="632"/>
         </scene>
     </scenes>
     <resources>
