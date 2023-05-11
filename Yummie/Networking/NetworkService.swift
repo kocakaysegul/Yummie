@@ -9,10 +9,18 @@ import Foundation
 
 struct NetworkService {
     
+    static let shared = NetworkService()
+    private init(){}
+    
+    func myFirstRequest(){
+        request(route: .temp, method: .get, type: String.self, completion: { _ in})
+    }
+    
     
     private func request<T: Decodable>(route: Route,
                                      method: Method,
                                      parameters: [String: Any]? = nil,
+                                     type: T.Type,
                                      completion: @escaping(Result<T, Error>) -> Void) {
         guard let request = createRequest(route: route, method: method, parameters: parameters) else {
             completion(.failure(AppError.unknownError))
@@ -31,7 +39,7 @@ struct NetworkService {
             }
             
             DispatchQueue.main.async {
-                //TODO : decode our result and send back to the user 
+                //TODO : decode our result and send back to the user
             }
         }.resume()
     }

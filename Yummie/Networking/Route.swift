@@ -16,7 +16,7 @@ enum Route {
     //description: returns the path of the endpoint
     var description : String {
         switch self {
-        case .temp: return  "/temp"
+        case .temp: return  "/dish-categories"
         }
     }
 }
