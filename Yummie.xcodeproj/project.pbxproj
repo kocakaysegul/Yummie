@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B266C94A1CFE5E75170C6FF2 /* Pods_Yummie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D41A5A7973190B86F75F0C /* Pods_Yummie.framework */; };
+		D81F56942A0CA8D3001C9F56 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81F56932A0CA8D3001C9F56 /* AppError.swift */; };
 		D84F197429F7D0CD0034C6C6 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F197229F7D0CD0034C6C6 /* CategoryCollectionViewCell.swift */; };
 		D84F197529F7D0CD0034C6C6 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D84F197329F7D0CD0034C6C6 /* CategoryCollectionViewCell.xib */; };
 		D84F197729F7D3C30034C6C6 /* DishCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F197629F7D3C30034C6C6 /* DishCategory.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		87D41A5A7973190B86F75F0C /* Pods_Yummie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yummie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9470531903C9A52E297CCE5 /* Pods-Yummie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yummie.debug.xcconfig"; path = "Target Support Files/Pods-Yummie/Pods-Yummie.debug.xcconfig"; sourceTree = "<group>"; };
+		D81F56932A0CA8D3001C9F56 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		D84F197229F7D0CD0034C6C6 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		D84F197329F7D0CD0034C6C6 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		D84F197629F7D3C30034C6C6 /* DishCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCategory.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				D879939C2A06776000DC128D /* NetworkService.swift */,
 				D879939E2A0678D000DC128D /* Route.swift */,
 				D87993A02A067D0F00DC128D /* Method.swift */,
+				D81F56932A0CA8D3001C9F56 /* AppError.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				D84F197729F7D3C30034C6C6 /* DishCategory.swift in Sources */,
 				D8AC936C2A010FF600802E9B /* CardView.swift in Sources */,
 				D86223202A052C3800BAA16B /* ListDishesViewController.swift in Sources */,
+				D81F56942A0CA8D3001C9F56 /* AppError.swift in Sources */,
 				D8AD7E6029F6C3A200072BD9 /* OnboardingCollectionViewCell.swift in Sources */,
 				D8AC93732A012B0300802E9B /* Dish.swift in Sources */,
 				D8AC93702A01267C00802E9B /* DishPortraitCollectionViewCell.swift in Sources */,
