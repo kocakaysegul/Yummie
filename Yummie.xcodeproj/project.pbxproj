@@ -39,6 +39,7 @@
 		D8AD7E5E29F6BF9D00072BD9 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD7E5D29F6BF9D00072BD9 /* OnboardingSlide.swift */; };
 		D8AD7E6029F6C3A200072BD9 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD7E5F29F6C3A200072BD9 /* OnboardingCollectionViewCell.swift */; };
 		D8AD7E6329F6D5B900072BD9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AD7E6229F6D5B900072BD9 /* HomeViewController.swift */; };
+		D8F589D52A20CE5E00D060E8 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F589D42A20CE5E00D060E8 /* ApiResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		D8AD7E5D29F6BF9D00072BD9 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		D8AD7E5F29F6C3A200072BD9 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		D8AD7E6229F6D5B900072BD9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D8F589D42A20CE5E00D060E8 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 		F19CCD5D7C6D98A28DD5CEBB /* Pods-Yummie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yummie.release.xcconfig"; path = "Target Support Files/Pods-Yummie/Pods-Yummie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,6 +170,7 @@
 				D879939E2A0678D000DC128D /* Route.swift */,
 				D87993A02A067D0F00DC128D /* Method.swift */,
 				D81F56932A0CA8D3001C9F56 /* AppError.swift */,
+				D8F589D42A20CE5E00D060E8 /* ApiResponse.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 				D8AD7E5929F6BB5D00072BD9 /* OnboardingViewController.swift in Sources */,
 				D888CD2B2A03F04800E49444 /* DishDetailViewController.swift in Sources */,
 				D8AD7E5C29F6BEC200072BD9 /* UIView+Extention.swift in Sources */,
+				D8F589D52A20CE5E00D060E8 /* ApiResponse.swift in Sources */,
 				D8AD7E6329F6D5B900072BD9 /* HomeViewController.swift in Sources */,
 				D879939F2A0678D000DC128D /* Route.swift in Sources */,
 				D879939D2A06776000DC128D /* NetworkService.swift in Sources */,

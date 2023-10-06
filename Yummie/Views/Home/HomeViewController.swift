@@ -45,6 +45,7 @@ class HomeViewController: UIViewController {
         print("URL: \(request?.url)")
          print("URL: \(request?.httpBody)")
          */
+        
         NetworkService.shared.myFirstRequest()
 
         // Do any additional setup after loading the view.
